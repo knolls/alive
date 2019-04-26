@@ -11,16 +11,16 @@ Pings a list of IP's stored in the CSV file data.csv, the webpage refreshes ever
 
 #### Edit data.csv
 `vim data.csv`
-
+ 
 ## Docker Instructions
 #### Install Docker
 `apt-get install docker`
 
 #### Download docker container
-`docker pull knolls/alive`
+`docker pull knolls/alive:latest`
 
 #### Start docker container, open port 5000 in docker, run standalone
-`docker run -d -p 5000:5000 knolls/alive`
+`docker run -d -p 5000:5000 knolls/alive:latest`
 
 #### Use docker ps to get the <container name>, be a string ex:c0cedd31a3
 `docker ps`
